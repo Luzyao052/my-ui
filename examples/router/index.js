@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import PageButton from '../views/PageButton.vue'
-import PageDivider from '../views/PageDivider.vue'
 
 Vue.use(VueRouter)
 
@@ -12,17 +11,17 @@ const routes = [
     component: PageButton
   },
   {
-    path: '/about',
-    name: 'About',
+    path: '/pageSlider',
+    name: 'PageSlider',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/PageSlider.vue')
   },
   {
-    path: '/pagedivider',
+    path: '/pageDivider',
     name: 'PageDivider',
-    component: PageDivider
+    component: () => import(/* webpackChunkName: "about" */ '../views/PageDivider.vue')
   }
 ]
 

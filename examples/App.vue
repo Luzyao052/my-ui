@@ -2,8 +2,8 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Button</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/pagedivider">Divider</router-link>
+      <router-link to="/pageSlider">Slider</router-link> |
+      <router-link to="/pageDivider">Divider</router-link>
     </div>
     <router-view/>
   </div>
