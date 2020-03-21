@@ -22,7 +22,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
+```
 <!-- 使用模板 -->
 <my-button>标准按钮</my-button>
     <br>

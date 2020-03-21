@@ -1,6 +1,6 @@
 {
   "name": "ui-learn",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "main": "dist/mylib.umd.min.js",
   "scripts": {
