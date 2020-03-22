@@ -5,6 +5,7 @@
       <router-link to="/pageSlider">Slider</router-link> |
       <router-link to="/pageDivider">Divider</router-link> |
       <router-link to="/pageHeadline">Headline</router-link> |
+      <router-link to="/pageDialog">Dialog</router-link>
     </div>
     <router-view/>
   </div>

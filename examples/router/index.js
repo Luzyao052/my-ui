@@ -27,6 +27,11 @@ const routes = [
     path: '/pageHeadline',
     name: 'PageHeadline',
     component: () => import(/* webpackChunkName: "about" */ '../views/PageHeadline.vue')
+  },
+  {
+    path: '/pageDialog',
+    name: 'pageDialog',
+    component: () => import(/* webpackChunkName: "about" */ '../views/PageDialog.vue')
   }
 ]
 
