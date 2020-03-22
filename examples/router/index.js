@@ -22,6 +22,11 @@ const routes = [
     path: '/pageDivider',
     name: 'PageDivider',
     component: () => import(/* webpackChunkName: "about" */ '../views/PageDivider.vue')
+  },
+  {
+    path: '/pageHeadline',
+    name: 'PageHeadline',
+    component: () => import(/* webpackChunkName: "about" */ '../views/PageHeadline.vue')
   }
 ]
 

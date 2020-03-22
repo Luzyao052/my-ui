@@ -99,6 +99,7 @@ export default {
       //   // disabled 是semantic-ui中一个特殊的class类名。
       //   classArr.push('disabled')
       // }
+      // console.log(classArr.join(' '))
       return classArr.join(' ')
     }
   },

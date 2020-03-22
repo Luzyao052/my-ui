@@ -3,7 +3,8 @@
     <div id="nav">
       <router-link to="/">Button</router-link> |
       <router-link to="/pageSlider">Slider</router-link> |
-      <router-link to="/pageDivider">Divider</router-link>
+      <router-link to="/pageDivider">Divider</router-link> |
+      <router-link to="/pageHeadline">Headline</router-link> |
     </div>
     <router-view/>
   </div>
