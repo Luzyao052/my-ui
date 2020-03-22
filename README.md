@@ -51,3 +51,34 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     </my-button>
     <br>
      <my-button @click="hClick">点击事件</my-button>
+
+
+    <h1>测试MyDivider</h1>
+    <my-divider>夹杂一些内容</my-divider>
+    <br>
+    <br>
+    <my-divider icon="user">标题说明1</my-divider>
+    <br>
+    <br>
+    <my-divider icon="setting">标题说明2</my-divider>
+
+
+    <h1>标题</h1>
+    <my-headline :level="1" icon="user" size="tiny">
+      tiny
+      <div slot="sub">tiny子标题</div>
+    </my-headline>
+
+
+    <h1>轮播图</h1>
+    <my-slider
+      style="width:500px;height:700px;"
+      :auto="2000"
+      :curIdx="curIdx"
+      :list="list"
+      @click="hClick"
+    ></my-slider>
+
+    <h1>弹出框</h1>
+    <button @click="isShow=!isShow">点击打开</button>
+    <my-dialog v-model="isShow"></my-dialog>
