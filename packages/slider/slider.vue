@@ -17,7 +17,7 @@
     <span class="btn btn_left" @click="hPrev"></span>
     <span class="btn btn_right" @click="hNext"></span>
     <!-- 标题区域 -->
-    <div class="txt">标题</div>
+    <div class="txt">{{this.list[currentIndex].alt}}</div>
     <!-- 指示条 -->
     <ol class="indirector">
       <li

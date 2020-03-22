@@ -53,7 +53,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
      <my-button @click="hClick">点击事件</my-button>
 
 
-    <h1>测试MyDivider</h1>
+    <h1>测试MyDivider-（一条线包住内容）</h1>
     <my-divider>夹杂一些内容</my-divider>
     <br>
     <br>
